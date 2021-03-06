@@ -9,6 +9,7 @@ body {
 header {
     font-family: 'Source Sans Pro', sans-serif;
     align-items: left;
+    border-bottom: 1px solid #263333;
 }
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -30,10 +31,13 @@ p {
     padding-right: 8px;
 }
 footer {
+    border-top: 1px solid #263333;
+    border-bottom: 1px solid #263333;
     font-size: 20px;
     align-content: right;
+    line-height: 45px;
 }
-.fa {
+footer .fa {
     font-size: 30px;
     width: 50px;
     text-decoration: none;

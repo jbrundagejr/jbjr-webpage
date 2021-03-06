@@ -1,3 +1,16 @@
 body {
-    background: rgb(216, 206, 206);
+    background: #f0f4f4;
+}
+#canvas {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 45px 45px 0;
+}
+h1 {
+    font-family: 'Archivo Narrow';
+    text-align: left;
+    font-size: 50px;
+}
+p {
+    font-family: 'Archivo Narrow';
 }

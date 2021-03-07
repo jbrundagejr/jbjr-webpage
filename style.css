@@ -1,17 +1,14 @@
 body {
     background: #f0f4f4;
 }
-a:link {
+#topNav a:link {
     text-decoration: none;
 }
-a:visited {
+#topNav a:visited {
     text-decoration: none;
 }
-a:hover {
+#topNav a:hover {
     text-decoration: underline;
-}
-#welcomeBlurb {
-    text-align: center;
 }
 #canvas {
     max-width: 1110px;
@@ -28,24 +25,35 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;
     text-align: left;
     font-size: 50px;
+    margin-block-end: .3em;
+    margin-block-start: .67em;
 }
 p {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+#aboutBlurb {
+    text-align: left;
+}
+iframe #reel {
+    align-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .container {
     display: flex;
     justify-content: space-between;
 }
 #navIcon img{
-    max-width: 50%;
+    max-width: 45%;
     height: auto;
 }
 #topNav a {
-    font-size: 30px;
+    font-size: 25px;
     color: #263333;
     text-decoration: none;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 footer {
     border-top: 1px solid #263333;
@@ -59,4 +67,20 @@ footer {
     font-size: 2em;
     text-decoration: none;
     color: #263333;
+}
+#welcomeBody {
+    padding-bottom: 25px;
+}
+#bio {
+    column-count: 2;
+    column-gap: 5px;
+    padding-bottom: 25px;
+}
+#bioPic img{
+    max-width: 545px;
+    height: auto;
+}
+#bioSummary {
+    column-span: 1;
+    break-inside: avoid;
 }

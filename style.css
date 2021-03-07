@@ -19,10 +19,11 @@ h1 {
 p {
     font-family: 'Source Sans Pro', sans-serif;
 }
-
-#topNav {
-    text-align: right;
+.container {
+    display: flex;
+    justify-content: space-between;
 }
+
 #topNav a {
     font-size: 30px;
     color: #263333;
@@ -34,12 +35,12 @@ footer {
     border-top: 1px solid #263333;
     border-bottom: 1px solid #263333;
     font-size: 20px;
-    align-content: right;
-    line-height: 45px;
+    line-height: 30px;
 }
-footer .fa {
-    font-size: 30px;
+#bottomNav .fa {
     width: 50px;
+    padding-top: 15px;
+    font-size: 2em;
     text-decoration: none;
     color: #263333;
   }

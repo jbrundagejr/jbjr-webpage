@@ -1,6 +1,18 @@
 body {
     background: #f0f4f4;
 }
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#welcomeBlurb {
+    text-align: center;
+}
 #canvas {
     max-width: 1110px;
     margin: 0 auto;
@@ -8,8 +20,9 @@ body {
 }
 header {
     font-family: 'Source Sans Pro', sans-serif;
-    align-items: left;
+    font-weight: bold;
     border-bottom: 1px solid #263333;
+    padding-top: 30px;
 }
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -23,7 +36,10 @@ p {
     display: flex;
     justify-content: space-between;
 }
-
+#navIcon img{
+    max-width: 50%;
+    height: auto;
+}
 #topNav a {
     font-size: 30px;
     color: #263333;
@@ -43,4 +59,4 @@ footer {
     font-size: 2em;
     text-decoration: none;
     color: #263333;
-  }
+}

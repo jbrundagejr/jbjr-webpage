@@ -14,6 +14,7 @@ body {
     max-width: 1110px;
     margin: 0 auto;
     padding: 45px 45px 0;
+    
 }
 header {
     font-family: 'Source Sans Pro', sans-serif;
@@ -30,7 +31,7 @@ h1 {
 }
 p {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 #aboutBlurb {
     text-align: left;
@@ -45,11 +46,11 @@ iframe #reel {
     justify-content: space-between;
 }
 #navIcon img{
-    max-width: 45%;
+    max-width: 50%;
     height: auto;
 }
 #topNav a {
-    font-size: 25px;
+    font-size: 20px;
     color: #263333;
     text-decoration: none;
     padding-left: 0px;
@@ -71,16 +72,25 @@ footer {
 #welcomeBody {
     padding-bottom: 25px;
 }
-#bio {
-    column-count: 2;
-    column-gap: 5px;
-    padding-bottom: 25px;
-}
 #bioPic img{
     max-width: 545px;
     height: auto;
 }
+.pageBody {
+    column-count: 2;
+    column-gap: 20px;
+    padding-bottom: 25px;
+}
 #bioSummary {
     column-span: 1;
     break-inside: avoid;
+}
+#contactForm {
+    column-span: 1;
+    break-inside: avoid;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+#contactBlurb {
+    text-align: right;
 }
